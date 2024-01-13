@@ -1,0 +1,232 @@
+error 99
+00b86169adeb721e4b4a623f0377167dfe2d7bf6c5017ed6317b581e99ecc43f 92387217 594941373 3900008000 crypto_scalarmult/kummer/ref5
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x1094BE: test (try.c:126)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x1094AB: test (try.c:125)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x1095A7: test (try.c:138)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x109594: test (try.c:137)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x10967F: test (try.c:148)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x109670: test (try.c:147)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x109760: test (try.c:158)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x10974D: test (try.c:157)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x109849: test (try.c:170)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x109836: test (try.c:169)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x109921: test (try.c:180)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x109912: test (try.c:179)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x109A52: test (try.c:194)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x109A27: test (try.c:192)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x109B97: test (try.c:210)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x109B6C: test (try.c:208)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x109CB0: test (try.c:223)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x109C89: test (try.c:221)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x109D7F: test (try.c:232)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x109D58: test (try.c:230)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x109ECB: test (try.c:247)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x109EA0: test (try.c:245)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x10A010: test (try.c:263)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x109FE5: test (try.c:261)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x10A129: test (try.c:276)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x10A102: test (try.c:274)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x10A1F8: test (try.c:285)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A85F: poison (try-anything.c:281)
+==21255==    by 0x10A1D1: test (try.c:283)
+==21255==    by 0x10A9A7: main (try-anything.c:345)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x10941D: doit (try.c:110)
+==21255==    by 0x10A9F5: main (try-anything.c:357)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A925: poison (try-anything.c:281)
+==21255==    by 0x10A925: randombytes_callback (try-anything.c:312)
+==21255==    by 0x10BEFB: randombytes (knownrandombytes.c:57)
+==21255==    by 0x1093F7: predoit (try.c:104)
+==21255==    by 0x10A9CC: main (try-anything.c:351)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x109430: doit (try.c:111)
+==21255==    by 0x10A9F5: main (try-anything.c:357)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A925: poison (try-anything.c:281)
+==21255==    by 0x10A925: randombytes_callback (try-anything.c:312)
+==21255==    by 0x10BEFB: randombytes (knownrandombytes.c:57)
+==21255==    by 0x10A9CC: main (try-anything.c:351)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x10944A: doit (try.c:112)
+==21255==    by 0x10A9F5: main (try-anything.c:357)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A925: poison (try-anything.c:281)
+==21255==    by 0x10A925: randombytes_callback (try-anything.c:312)
+==21255==    by 0x10BEFB: randombytes (knownrandombytes.c:57)
+==21255==    by 0x1093F7: predoit (try.c:104)
+==21255==    by 0x10A9CC: main (try-anything.c:351)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x10A9F5: main (try-anything.c:357)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A925: poison (try-anything.c:281)
+==21255==    by 0x10A925: randombytes_callback (try-anything.c:312)
+==21255==    by 0x10BEFB: randombytes (knownrandombytes.c:57)
+==21255==    by 0x10A9CC: main (try-anything.c:351)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x10941D: doit (try.c:110)
+==21255==    by 0x10AA06: main (try-anything.c:357)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A925: poison (try-anything.c:281)
+==21255==    by 0x10A925: randombytes_callback (try-anything.c:312)
+==21255==    by 0x10BEFB: randombytes (knownrandombytes.c:57)
+==21255==    by 0x1093F7: predoit (try.c:104)
+==21255==    by 0x10A9CC: main (try-anything.c:351)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x109430: doit (try.c:111)
+==21255==    by 0x10AA06: main (try-anything.c:357)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A925: poison (try-anything.c:281)
+==21255==    by 0x10A925: randombytes_callback (try-anything.c:312)
+==21255==    by 0x10BEFB: randombytes (knownrandombytes.c:57)
+==21255==    by 0x10A9CC: main (try-anything.c:351)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x10944A: doit (try.c:112)
+==21255==    by 0x10AA06: main (try-anything.c:357)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A925: poison (try-anything.c:281)
+==21255==    by 0x10A925: randombytes_callback (try-anything.c:312)
+==21255==    by 0x10BEFB: randombytes (knownrandombytes.c:57)
+==21255==    by 0x1093F7: predoit (try.c:104)
+==21255==    by 0x10A9CC: main (try-anything.c:351)
+==21255==
+==21255== Conditional jump or move depends on uninitialised value(s)
+==21255==    at 0x10B4F4: cswap4x (smult.c:13)
+==21255==    by 0x10B4F4: crypto_scalarmult_kummer_ref5_constbranchindex (???:113)
+==21255==    by 0x10AA06: main (try-anything.c:357)
+==21255==  Uninitialised value was created by a client request
+==21255==    at 0x10A925: poison (try-anything.c:281)
+==21255==    by 0x10A925: randombytes_callback (try-anything.c:312)
+==21255==    by 0x10BEFB: randombytes (knownrandombytes.c:57)
+==21255==    by 0x10A9CC: main (try-anything.c:351)
+==21255==

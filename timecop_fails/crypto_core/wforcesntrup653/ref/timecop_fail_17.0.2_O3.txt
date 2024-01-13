@@ -1,0 +1,47 @@
+error 99
+9334e79b56cc8c00050596ed0900b00440aaf6bb57b4d1ddbfd3cc247eefce08 293028 1201163019 2370465000 crypto_core/wforcesntrup653/ref
+==25081== Conditional jump or move depends on uninitialised value(s)
+==25081==    at 0x10B81E: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==25081==    by 0x109488: test (try.c:106)
+==25081==    by 0x10AD9E: main (try-anything.c:345)
+==25081==  Uninitialised value was created by a client request
+==25081==    at 0x10ABB8: poison (try-anything.c:281)
+==25081==    by 0x10944B: test (try.c:103)
+==25081==    by 0x10AD9E: main (try-anything.c:345)
+==25081==
+==25081== Conditional jump or move depends on uninitialised value(s)
+==25081==    at 0x10B81E: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==25081==    by 0x109612: test (try.c:126)
+==25081==    by 0x10AD9E: main (try-anything.c:345)
+==25081==  Uninitialised value was created by a client request
+==25081==    at 0x10ABB8: poison (try-anything.c:281)
+==25081==    by 0x1095D5: test (try.c:123)
+==25081==    by 0x10AD9E: main (try-anything.c:345)
+==25081==
+==25081== Conditional jump or move depends on uninitialised value(s)
+==25081==    at 0x10B81E: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==25081==    by 0x10974E: test (try.c:142)
+==25081==    by 0x10AD9E: main (try-anything.c:345)
+==25081==  Uninitialised value was created by a client request
+==25081==    at 0x10ABB8: poison (try-anything.c:281)
+==25081==    by 0x109715: test (try.c:139)
+==25081==    by 0x10AD9E: main (try-anything.c:345)
+==25081==
+==25081== Conditional jump or move depends on uninitialised value(s)
+==25081==    at 0x10B81E: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==25081==    by 0x109830: test (try.c:153)
+==25081==    by 0x10AD9E: main (try-anything.c:345)
+==25081==  Uninitialised value was created by a client request
+==25081==    at 0x10ABB8: poison (try-anything.c:281)
+==25081==    by 0x1097F7: test (try.c:150)
+==25081==    by 0x10AD9E: main (try-anything.c:345)
+==25081==
+==25081== Conditional jump or move depends on uninitialised value(s)
+==25081==    at 0x10B81E: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==25081==    by 0x1098F8: test (try.c:164)
+==25081==    by 0x10AD9E: main (try-anything.c:345)
+==25081==  Uninitialised value was created by a client request
+==25081==    at 0x10ABB8: poison (try-anything.c:281)
+==25081==    by 0x1098BF: test (try.c:161)
+==25081==    by 0x10AD9E: main (try-anything.c:345)
+==25081==

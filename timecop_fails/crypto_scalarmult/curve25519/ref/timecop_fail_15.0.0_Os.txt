@@ -1,0 +1,164 @@
+error 99
+f6675e1326b2a9595d10ad5624159653c6115e6a972c34826d275b8cfe38884b 2735553054 6633934182 3900008000 crypto_scalarmult/curve25519/ref
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x1094BE: test (try.c:126)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x1095A7: test (try.c:138)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x10966D: test (try.c:148)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x10973C: test (try.c:158)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x109825: test (try.c:170)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x1098EB: test (try.c:180)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x109A00: test (try.c:194)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==  Uninitialised value was created by a client request
+==13314==    at 0x10A76B: poison (try-anything.c:281)
+==13314==    by 0x1099E6: test (try.c:193)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x109B45: test (try.c:210)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==  Uninitialised value was created by a client request
+==13314==    at 0x10A76B: poison (try-anything.c:281)
+==13314==    by 0x109B2B: test (try.c:209)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x109C4C: test (try.c:223)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==  Uninitialised value was created by a client request
+==13314==    at 0x10A76B: poison (try-anything.c:281)
+==13314==    by 0x109C36: test (try.c:222)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x109D09: test (try.c:232)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==  Uninitialised value was created by a client request
+==13314==    at 0x10A76B: poison (try-anything.c:281)
+==13314==    by 0x109CF3: test (try.c:231)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x109E2F: test (try.c:247)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==  Uninitialised value was created by a client request
+==13314==    at 0x10A76B: poison (try-anything.c:281)
+==13314==    by 0x109E15: test (try.c:246)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x109F74: test (try.c:263)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==  Uninitialised value was created by a client request
+==13314==    at 0x10A76B: poison (try-anything.c:281)
+==13314==    by 0x109F5A: test (try.c:262)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x10A07B: test (try.c:276)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==  Uninitialised value was created by a client request
+==13314==    at 0x10A76B: poison (try-anything.c:281)
+==13314==    by 0x10A065: test (try.c:275)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x10A138: test (try.c:285)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==  Uninitialised value was created by a client request
+==13314==    at 0x10A76B: poison (try-anything.c:281)
+==13314==    by 0x10A122: test (try.c:284)
+==13314==    by 0x10A8AD: main (try-anything.c:345)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x10941D: doit (try.c:110)
+==13314==    by 0x10A8F8: main (try-anything.c:357)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x109430: doit (try.c:111)
+==13314==    by 0x10A8F8: main (try-anything.c:357)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x10944A: doit (try.c:112)
+==13314==    by 0x10A8F8: main (try-anything.c:357)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x10A8F8: main (try-anything.c:357)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x10941D: doit (try.c:110)
+==13314==    by 0x10A909: main (try-anything.c:357)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x109430: doit (try.c:111)
+==13314==    by 0x10A909: main (try-anything.c:357)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x10944A: doit (try.c:112)
+==13314==    by 0x10A909: main (try-anything.c:357)
+==13314==
+==13314== Use of uninitialised value of size 8
+==13314==    at 0x10B8EC: freeze (smult.c:59)
+==13314==    by 0x10B8EC: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==13314==    by 0x10A909: main (try-anything.c:357)
+==13314==

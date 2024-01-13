@@ -1,0 +1,47 @@
+error 99
+d00c261c8b9e82f662c97e36fcc8f103c8c911770f0c00822f55f1f2b40fcd25 286211 1566656709 2370465000 crypto_core/wforcesntrup761/ref
+==26278== Conditional jump or move depends on uninitialised value(s)
+==26278==    at 0x10B91E: crypto_core_wforcesntrup761_ref_constbranchindex (wforce.c:45)
+==26278==    by 0x109488: test (try.c:106)
+==26278==    by 0x10ADEE: main (try-anything.c:345)
+==26278==  Uninitialised value was created by a client request
+==26278==    at 0x10AC08: poison (try-anything.c:281)
+==26278==    by 0x10944B: test (try.c:103)
+==26278==    by 0x10ADEE: main (try-anything.c:345)
+==26278==
+==26278== Conditional jump or move depends on uninitialised value(s)
+==26278==    at 0x10B91E: crypto_core_wforcesntrup761_ref_constbranchindex (wforce.c:45)
+==26278==    by 0x109612: test (try.c:126)
+==26278==    by 0x10ADEE: main (try-anything.c:345)
+==26278==  Uninitialised value was created by a client request
+==26278==    at 0x10AC08: poison (try-anything.c:281)
+==26278==    by 0x1095D5: test (try.c:123)
+==26278==    by 0x10ADEE: main (try-anything.c:345)
+==26278==
+==26278== Conditional jump or move depends on uninitialised value(s)
+==26278==    at 0x10B91E: crypto_core_wforcesntrup761_ref_constbranchindex (wforce.c:45)
+==26278==    by 0x10974E: test (try.c:142)
+==26278==    by 0x10ADEE: main (try-anything.c:345)
+==26278==  Uninitialised value was created by a client request
+==26278==    at 0x10AC08: poison (try-anything.c:281)
+==26278==    by 0x109715: test (try.c:139)
+==26278==    by 0x10ADEE: main (try-anything.c:345)
+==26278==
+==26278== Conditional jump or move depends on uninitialised value(s)
+==26278==    at 0x10B91E: crypto_core_wforcesntrup761_ref_constbranchindex (wforce.c:45)
+==26278==    by 0x109830: test (try.c:153)
+==26278==    by 0x10ADEE: main (try-anything.c:345)
+==26278==  Uninitialised value was created by a client request
+==26278==    at 0x10AC08: poison (try-anything.c:281)
+==26278==    by 0x1097F7: test (try.c:150)
+==26278==    by 0x10ADEE: main (try-anything.c:345)
+==26278==
+==26278== Conditional jump or move depends on uninitialised value(s)
+==26278==    at 0x10B91E: crypto_core_wforcesntrup761_ref_constbranchindex (wforce.c:45)
+==26278==    by 0x1098F8: test (try.c:164)
+==26278==    by 0x10ADEE: main (try-anything.c:345)
+==26278==  Uninitialised value was created by a client request
+==26278==    at 0x10AC08: poison (try-anything.c:281)
+==26278==    by 0x1098BF: test (try.c:161)
+==26278==    by 0x10ADEE: main (try-anything.c:345)
+==26278==

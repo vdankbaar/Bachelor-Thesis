@@ -1,0 +1,52 @@
+error 99
+28af619241683a0f95667fa8d63f4e64b5e223cc0455fe11a84f5b7aeb537de3 605508813 3313908312 3900008000 crypto_core/invhrss701/ref
+==4624== Use of uninitialised value of size 8
+==4624==    at 0x10AF39: cmov (core.c:69)
+==4624==    by 0x10AF39: crypto_core_invhrss701_ref_constbranchindex (???:141)
+==4624==    by 0x109437: test (try.c:106)
+==4624==    by 0x10A09D: main (try-anything.c:345)
+==4624==  Uninitialised value was created by a client request
+==4624==    at 0x109F55: poison (try-anything.c:281)
+==4624==    by 0x1093FA: test (try.c:103)
+==4624==    by 0x10A09D: main (try-anything.c:345)
+==4624==
+==4624== Use of uninitialised value of size 8
+==4624==    at 0x10AF39: cmov (core.c:69)
+==4624==    by 0x10AF39: crypto_core_invhrss701_ref_constbranchindex (???:141)
+==4624==    by 0x1095C0: test (try.c:126)
+==4624==    by 0x10A09D: main (try-anything.c:345)
+==4624==  Uninitialised value was created by a client request
+==4624==    at 0x109F55: poison (try-anything.c:281)
+==4624==    by 0x109583: test (try.c:123)
+==4624==    by 0x10A09D: main (try-anything.c:345)
+==4624==
+==4624== Use of uninitialised value of size 8
+==4624==    at 0x10AF39: cmov (core.c:69)
+==4624==    by 0x10AF39: crypto_core_invhrss701_ref_constbranchindex (???:141)
+==4624==    by 0x1096FB: test (try.c:142)
+==4624==    by 0x10A09D: main (try-anything.c:345)
+==4624==  Uninitialised value was created by a client request
+==4624==    at 0x109F55: poison (try-anything.c:281)
+==4624==    by 0x1096C2: test (try.c:139)
+==4624==    by 0x10A09D: main (try-anything.c:345)
+==4624==
+==4624== Use of uninitialised value of size 8
+==4624==    at 0x10AF39: cmov (core.c:69)
+==4624==    by 0x10AF39: crypto_core_invhrss701_ref_constbranchindex (???:141)
+==4624==    by 0x1097DC: test (try.c:153)
+==4624==    by 0x10A09D: main (try-anything.c:345)
+==4624==  Uninitialised value was created by a client request
+==4624==    at 0x109F55: poison (try-anything.c:281)
+==4624==    by 0x1097A3: test (try.c:150)
+==4624==    by 0x10A09D: main (try-anything.c:345)
+==4624==
+==4624== Use of uninitialised value of size 8
+==4624==    at 0x10AF39: cmov (core.c:69)
+==4624==    by 0x10AF39: crypto_core_invhrss701_ref_constbranchindex (???:141)
+==4624==    by 0x1098A3: test (try.c:164)
+==4624==    by 0x10A09D: main (try-anything.c:345)
+==4624==  Uninitialised value was created by a client request
+==4624==    at 0x109F55: poison (try-anything.c:281)
+==4624==    by 0x10986A: test (try.c:161)
+==4624==    by 0x10A09D: main (try-anything.c:345)
+==4624==

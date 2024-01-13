@@ -1,0 +1,47 @@
+error 99
+56ebb699f6cb408311ed1c1e018336e88257dfbc438b17e28ea2ae9c9e50da3b 280630 1922981522 2370465000 crypto_core/wforcesntrup857/ref2
+==27733== Conditional jump or move depends on uninitialised value(s)
+==27733==    at 0x10B735: crypto_core_wforcesntrup857_ref2_constbranchindex (wforce.c:48)
+==27733==    by 0x109488: test (try.c:106)
+==27733==    by 0x10ADEE: main (try-anything.c:345)
+==27733==  Uninitialised value was created by a client request
+==27733==    at 0x10AC08: poison (try-anything.c:281)
+==27733==    by 0x10944B: test (try.c:103)
+==27733==    by 0x10ADEE: main (try-anything.c:345)
+==27733==
+==27733== Conditional jump or move depends on uninitialised value(s)
+==27733==    at 0x10B735: crypto_core_wforcesntrup857_ref2_constbranchindex (wforce.c:48)
+==27733==    by 0x109612: test (try.c:126)
+==27733==    by 0x10ADEE: main (try-anything.c:345)
+==27733==  Uninitialised value was created by a client request
+==27733==    at 0x10AC08: poison (try-anything.c:281)
+==27733==    by 0x1095D5: test (try.c:123)
+==27733==    by 0x10ADEE: main (try-anything.c:345)
+==27733==
+==27733== Conditional jump or move depends on uninitialised value(s)
+==27733==    at 0x10B735: crypto_core_wforcesntrup857_ref2_constbranchindex (wforce.c:48)
+==27733==    by 0x10974E: test (try.c:142)
+==27733==    by 0x10ADEE: main (try-anything.c:345)
+==27733==  Uninitialised value was created by a client request
+==27733==    at 0x10AC08: poison (try-anything.c:281)
+==27733==    by 0x109715: test (try.c:139)
+==27733==    by 0x10ADEE: main (try-anything.c:345)
+==27733==
+==27733== Conditional jump or move depends on uninitialised value(s)
+==27733==    at 0x10B735: crypto_core_wforcesntrup857_ref2_constbranchindex (wforce.c:48)
+==27733==    by 0x109830: test (try.c:153)
+==27733==    by 0x10ADEE: main (try-anything.c:345)
+==27733==  Uninitialised value was created by a client request
+==27733==    at 0x10AC08: poison (try-anything.c:281)
+==27733==    by 0x1097F7: test (try.c:150)
+==27733==    by 0x10ADEE: main (try-anything.c:345)
+==27733==
+==27733== Conditional jump or move depends on uninitialised value(s)
+==27733==    at 0x10B735: crypto_core_wforcesntrup857_ref2_constbranchindex (wforce.c:48)
+==27733==    by 0x1098F8: test (try.c:164)
+==27733==    by 0x10ADEE: main (try-anything.c:345)
+==27733==  Uninitialised value was created by a client request
+==27733==    at 0x10AC08: poison (try-anything.c:281)
+==27733==    by 0x1098BF: test (try.c:161)
+==27733==    by 0x10ADEE: main (try-anything.c:345)
+==27733==

@@ -1,0 +1,47 @@
+error 99
+56ebb699f6cb408311ed1c1e018336e88257dfbc438b17e28ea2ae9c9e50da3b 493038 3314374758 3900008000 crypto_core/wforcesntrup857/simpler
+==16080== Conditional jump or move depends on uninitialised value(s)
+==16080==    at 0x10B741: crypto_core_wforcesntrup857_simpler_constbranchindex (wforce.c:24)
+==16080==    by 0x109488: test (try.c:106)
+==16080==    by 0x10ADEE: main (try-anything.c:345)
+==16080==  Uninitialised value was created by a client request
+==16080==    at 0x10AC08: poison (try-anything.c:281)
+==16080==    by 0x10944B: test (try.c:103)
+==16080==    by 0x10ADEE: main (try-anything.c:345)
+==16080==
+==16080== Conditional jump or move depends on uninitialised value(s)
+==16080==    at 0x10B741: crypto_core_wforcesntrup857_simpler_constbranchindex (wforce.c:24)
+==16080==    by 0x109612: test (try.c:126)
+==16080==    by 0x10ADEE: main (try-anything.c:345)
+==16080==  Uninitialised value was created by a client request
+==16080==    at 0x10AC08: poison (try-anything.c:281)
+==16080==    by 0x1095D5: test (try.c:123)
+==16080==    by 0x10ADEE: main (try-anything.c:345)
+==16080==
+==16080== Conditional jump or move depends on uninitialised value(s)
+==16080==    at 0x10B741: crypto_core_wforcesntrup857_simpler_constbranchindex (wforce.c:24)
+==16080==    by 0x10974E: test (try.c:142)
+==16080==    by 0x10ADEE: main (try-anything.c:345)
+==16080==  Uninitialised value was created by a client request
+==16080==    at 0x10AC08: poison (try-anything.c:281)
+==16080==    by 0x109715: test (try.c:139)
+==16080==    by 0x10ADEE: main (try-anything.c:345)
+==16080==
+==16080== Conditional jump or move depends on uninitialised value(s)
+==16080==    at 0x10B741: crypto_core_wforcesntrup857_simpler_constbranchindex (wforce.c:24)
+==16080==    by 0x109830: test (try.c:153)
+==16080==    by 0x10ADEE: main (try-anything.c:345)
+==16080==  Uninitialised value was created by a client request
+==16080==    at 0x10AC08: poison (try-anything.c:281)
+==16080==    by 0x1097F7: test (try.c:150)
+==16080==    by 0x10ADEE: main (try-anything.c:345)
+==16080==
+==16080== Conditional jump or move depends on uninitialised value(s)
+==16080==    at 0x10B741: crypto_core_wforcesntrup857_simpler_constbranchindex (wforce.c:24)
+==16080==    by 0x1098F8: test (try.c:164)
+==16080==    by 0x10ADEE: main (try-anything.c:345)
+==16080==  Uninitialised value was created by a client request
+==16080==    at 0x10AC08: poison (try-anything.c:281)
+==16080==    by 0x1098BF: test (try.c:161)
+==16080==    by 0x10ADEE: main (try-anything.c:345)
+==16080==

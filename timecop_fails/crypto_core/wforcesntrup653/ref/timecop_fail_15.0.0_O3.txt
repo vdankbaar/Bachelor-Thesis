@@ -1,0 +1,434 @@
+error 99
+9334e79b56cc8c00050596ed0900b00440aaf6bb57b4d1ddbfd3cc247eefce08 503490 2247827732 3900008000 crypto_core/wforcesntrup653/ref
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D293: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D2CD: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D325: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D333: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D376: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D3CA: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D41E: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D42C: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D496: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4A4: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4B2: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4C0: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109488: test (try.c:106)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x10944B: test (try.c:103)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D293: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D2CD: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D325: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D333: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D376: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D3CA: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D41E: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D42C: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D496: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4A4: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4B2: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4C0: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109612: test (try.c:126)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1095D5: test (try.c:123)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D293: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D2CD: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D325: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D333: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D376: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D3CA: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D41E: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D42C: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D496: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4A4: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4B2: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4C0: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x109830: test (try.c:153)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1097F7: test (try.c:150)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D293: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D2CD: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D325: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D333: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:45)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D376: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D3CA: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D41E: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D42C: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D496: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4A4: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4B2: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==
+==15701== Conditional jump or move depends on uninitialised value(s)
+==15701==    at 0x10D4C0: crypto_core_wforcesntrup653_ref_constbranchindex (wforce.c:46)
+==15701==    by 0x1098F8: test (try.c:164)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==  Uninitialised value was created by a client request
+==15701==    at 0x10C758: poison (try-anything.c:281)
+==15701==    by 0x1098BF: test (try.c:161)
+==15701==    by 0x10C932: main (try-anything.c:345)
+==15701==

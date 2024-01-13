@@ -1,0 +1,47 @@
+error 99
+b6658bd7c21a51ee944260a5d985d252c7508b0f0069e9228afe864ed3aea60c 491244 4128873801 3900008000 crypto_core/wforcesntrup1013/simpler
+==29048== Conditional jump or move depends on uninitialised value(s)
+==29048==    at 0x10B741: crypto_core_wforcesntrup1013_simpler_constbranchindex (wforce.c:24)
+==29048==    by 0x109488: test (try.c:106)
+==29048==    by 0x10ADEE: main (try-anything.c:345)
+==29048==  Uninitialised value was created by a client request
+==29048==    at 0x10AC08: poison (try-anything.c:281)
+==29048==    by 0x10944B: test (try.c:103)
+==29048==    by 0x10ADEE: main (try-anything.c:345)
+==29048==
+==29048== Conditional jump or move depends on uninitialised value(s)
+==29048==    at 0x10B741: crypto_core_wforcesntrup1013_simpler_constbranchindex (wforce.c:24)
+==29048==    by 0x109612: test (try.c:126)
+==29048==    by 0x10ADEE: main (try-anything.c:345)
+==29048==  Uninitialised value was created by a client request
+==29048==    at 0x10AC08: poison (try-anything.c:281)
+==29048==    by 0x1095D5: test (try.c:123)
+==29048==    by 0x10ADEE: main (try-anything.c:345)
+==29048==
+==29048== Conditional jump or move depends on uninitialised value(s)
+==29048==    at 0x10B741: crypto_core_wforcesntrup1013_simpler_constbranchindex (wforce.c:24)
+==29048==    by 0x10974E: test (try.c:142)
+==29048==    by 0x10ADEE: main (try-anything.c:345)
+==29048==  Uninitialised value was created by a client request
+==29048==    at 0x10AC08: poison (try-anything.c:281)
+==29048==    by 0x109715: test (try.c:139)
+==29048==    by 0x10ADEE: main (try-anything.c:345)
+==29048==
+==29048== Conditional jump or move depends on uninitialised value(s)
+==29048==    at 0x10B741: crypto_core_wforcesntrup1013_simpler_constbranchindex (wforce.c:24)
+==29048==    by 0x109830: test (try.c:153)
+==29048==    by 0x10ADEE: main (try-anything.c:345)
+==29048==  Uninitialised value was created by a client request
+==29048==    at 0x10AC08: poison (try-anything.c:281)
+==29048==    by 0x1097F7: test (try.c:150)
+==29048==    by 0x10ADEE: main (try-anything.c:345)
+==29048==
+==29048== Conditional jump or move depends on uninitialised value(s)
+==29048==    at 0x10B741: crypto_core_wforcesntrup1013_simpler_constbranchindex (wforce.c:24)
+==29048==    by 0x1098F8: test (try.c:164)
+==29048==    by 0x10ADEE: main (try-anything.c:345)
+==29048==  Uninitialised value was created by a client request
+==29048==    at 0x10AC08: poison (try-anything.c:281)
+==29048==    by 0x1098BF: test (try.c:161)
+==29048==    by 0x10ADEE: main (try-anything.c:345)
+==29048==

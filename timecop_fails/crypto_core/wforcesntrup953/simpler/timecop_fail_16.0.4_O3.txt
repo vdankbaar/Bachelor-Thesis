@@ -1,0 +1,326 @@
+error 99
+dcc64a24c71c2833100e417146a7592dd9bda4e9a2618031530eee0b1e89814e 283147 2294071685 2370465000 crypto_core/wforcesntrup953/simpler
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B64E: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x109485: test (try.c:106)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x109448: test (try.c:103)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B68C: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x109485: test (try.c:106)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x109448: test (try.c:103)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B6E4: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x109485: test (try.c:106)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x109448: test (try.c:103)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B784: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x109485: test (try.c:106)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x109448: test (try.c:103)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B7DC: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x109485: test (try.c:106)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x109448: test (try.c:103)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B834: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x109485: test (try.c:106)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x109448: test (try.c:103)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B88C: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x109485: test (try.c:106)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x109448: test (try.c:103)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B8E4: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x109485: test (try.c:106)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x109448: test (try.c:103)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B8F3: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x109485: test (try.c:106)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x109448: test (try.c:103)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B64E: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x10960F: test (try.c:126)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1095D2: test (try.c:123)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B68C: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x10960F: test (try.c:126)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1095D2: test (try.c:123)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B6E4: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x10960F: test (try.c:126)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1095D2: test (try.c:123)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B784: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10960F: test (try.c:126)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1095D2: test (try.c:123)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B7DC: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10960F: test (try.c:126)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1095D2: test (try.c:123)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B834: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10960F: test (try.c:126)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1095D2: test (try.c:123)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B88C: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10960F: test (try.c:126)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1095D2: test (try.c:123)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B8E4: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10960F: test (try.c:126)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1095D2: test (try.c:123)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B8F3: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10960F: test (try.c:126)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1095D2: test (try.c:123)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B64E: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x10982D: test (try.c:153)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1097F4: test (try.c:150)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B68C: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x10982D: test (try.c:153)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1097F4: test (try.c:150)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B6E4: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x10982D: test (try.c:153)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1097F4: test (try.c:150)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B784: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10982D: test (try.c:153)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1097F4: test (try.c:150)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B7DC: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10982D: test (try.c:153)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1097F4: test (try.c:150)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B834: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10982D: test (try.c:153)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1097F4: test (try.c:150)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B88C: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10982D: test (try.c:153)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1097F4: test (try.c:150)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B8E4: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10982D: test (try.c:153)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1097F4: test (try.c:150)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B8F3: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x10982D: test (try.c:153)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1097F4: test (try.c:150)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B64E: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x1098F5: test (try.c:164)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1098BC: test (try.c:161)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B68C: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x1098F5: test (try.c:164)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1098BC: test (try.c:161)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B6E4: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:24)
+==22333==    by 0x1098F5: test (try.c:164)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1098BC: test (try.c:161)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B784: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x1098F5: test (try.c:164)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1098BC: test (try.c:161)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B7DC: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x1098F5: test (try.c:164)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1098BC: test (try.c:161)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B834: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x1098F5: test (try.c:164)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1098BC: test (try.c:161)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B88C: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x1098F5: test (try.c:164)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1098BC: test (try.c:161)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B8E4: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x1098F5: test (try.c:164)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1098BC: test (try.c:161)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==
+==22333== Conditional jump or move depends on uninitialised value(s)
+==22333==    at 0x10B8F3: crypto_core_wforcesntrup953_simpler_constbranchindex (wforce.c:25)
+==22333==    by 0x1098F5: test (try.c:164)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==  Uninitialised value was created by a client request
+==22333==    at 0x10AC18: poison (try-anything.c:281)
+==22333==    by 0x1098BC: test (try.c:161)
+==22333==    by 0x10ADFB: main (try-anything.c:345)
+==22333==

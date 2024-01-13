@@ -1,0 +1,47 @@
+error 99
+d00c261c8b9e82f662c97e36fcc8f103c8c911770f0c00822f55f1f2b40fcd25 609570 2651532624 3900008000 crypto_core/wforcesntrup761/ref2
+==12045== Conditional jump or move depends on uninitialised value(s)
+==12045==    at 0x10B735: crypto_core_wforcesntrup761_ref2_constbranchindex (wforce.c:48)
+==12045==    by 0x109488: test (try.c:106)
+==12045==    by 0x10ADEE: main (try-anything.c:345)
+==12045==  Uninitialised value was created by a client request
+==12045==    at 0x10AC08: poison (try-anything.c:281)
+==12045==    by 0x10944B: test (try.c:103)
+==12045==    by 0x10ADEE: main (try-anything.c:345)
+==12045==
+==12045== Conditional jump or move depends on uninitialised value(s)
+==12045==    at 0x10B735: crypto_core_wforcesntrup761_ref2_constbranchindex (wforce.c:48)
+==12045==    by 0x109612: test (try.c:126)
+==12045==    by 0x10ADEE: main (try-anything.c:345)
+==12045==  Uninitialised value was created by a client request
+==12045==    at 0x10AC08: poison (try-anything.c:281)
+==12045==    by 0x1095D5: test (try.c:123)
+==12045==    by 0x10ADEE: main (try-anything.c:345)
+==12045==
+==12045== Conditional jump or move depends on uninitialised value(s)
+==12045==    at 0x10B735: crypto_core_wforcesntrup761_ref2_constbranchindex (wforce.c:48)
+==12045==    by 0x10974E: test (try.c:142)
+==12045==    by 0x10ADEE: main (try-anything.c:345)
+==12045==  Uninitialised value was created by a client request
+==12045==    at 0x10AC08: poison (try-anything.c:281)
+==12045==    by 0x109715: test (try.c:139)
+==12045==    by 0x10ADEE: main (try-anything.c:345)
+==12045==
+==12045== Conditional jump or move depends on uninitialised value(s)
+==12045==    at 0x10B735: crypto_core_wforcesntrup761_ref2_constbranchindex (wforce.c:48)
+==12045==    by 0x109830: test (try.c:153)
+==12045==    by 0x10ADEE: main (try-anything.c:345)
+==12045==  Uninitialised value was created by a client request
+==12045==    at 0x10AC08: poison (try-anything.c:281)
+==12045==    by 0x1097F7: test (try.c:150)
+==12045==    by 0x10ADEE: main (try-anything.c:345)
+==12045==
+==12045== Conditional jump or move depends on uninitialised value(s)
+==12045==    at 0x10B735: crypto_core_wforcesntrup761_ref2_constbranchindex (wforce.c:48)
+==12045==    by 0x1098F8: test (try.c:164)
+==12045==    by 0x10ADEE: main (try-anything.c:345)
+==12045==  Uninitialised value was created by a client request
+==12045==    at 0x10AC08: poison (try-anything.c:281)
+==12045==    by 0x1098BF: test (try.c:161)
+==12045==    by 0x10ADEE: main (try-anything.c:345)
+==12045==

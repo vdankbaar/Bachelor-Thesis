@@ -1,0 +1,47 @@
+error 99
+b6658bd7c21a51ee944260a5d985d252c7508b0f0069e9228afe864ed3aea60c 475800 4185210237 3900008000 crypto_core/wforcesntrup1013/ref
+==24032== Conditional jump or move depends on uninitialised value(s)
+==24032==    at 0x10B8E6: crypto_core_wforcesntrup1013_ref_constbranchindex (wforce.c:45)
+==24032==    by 0x109488: test (try.c:106)
+==24032==    by 0x10ADEE: main (try-anything.c:345)
+==24032==  Uninitialised value was created by a client request
+==24032==    at 0x10AC08: poison (try-anything.c:281)
+==24032==    by 0x10944B: test (try.c:103)
+==24032==    by 0x10ADEE: main (try-anything.c:345)
+==24032==
+==24032== Conditional jump or move depends on uninitialised value(s)
+==24032==    at 0x10B8E6: crypto_core_wforcesntrup1013_ref_constbranchindex (wforce.c:45)
+==24032==    by 0x109612: test (try.c:126)
+==24032==    by 0x10ADEE: main (try-anything.c:345)
+==24032==  Uninitialised value was created by a client request
+==24032==    at 0x10AC08: poison (try-anything.c:281)
+==24032==    by 0x1095D5: test (try.c:123)
+==24032==    by 0x10ADEE: main (try-anything.c:345)
+==24032==
+==24032== Conditional jump or move depends on uninitialised value(s)
+==24032==    at 0x10B8E6: crypto_core_wforcesntrup1013_ref_constbranchindex (wforce.c:45)
+==24032==    by 0x10974E: test (try.c:142)
+==24032==    by 0x10ADEE: main (try-anything.c:345)
+==24032==  Uninitialised value was created by a client request
+==24032==    at 0x10AC08: poison (try-anything.c:281)
+==24032==    by 0x109715: test (try.c:139)
+==24032==    by 0x10ADEE: main (try-anything.c:345)
+==24032==
+==24032== Conditional jump or move depends on uninitialised value(s)
+==24032==    at 0x10B8E6: crypto_core_wforcesntrup1013_ref_constbranchindex (wforce.c:45)
+==24032==    by 0x109830: test (try.c:153)
+==24032==    by 0x10ADEE: main (try-anything.c:345)
+==24032==  Uninitialised value was created by a client request
+==24032==    at 0x10AC08: poison (try-anything.c:281)
+==24032==    by 0x1097F7: test (try.c:150)
+==24032==    by 0x10ADEE: main (try-anything.c:345)
+==24032==
+==24032== Conditional jump or move depends on uninitialised value(s)
+==24032==    at 0x10B8E6: crypto_core_wforcesntrup1013_ref_constbranchindex (wforce.c:45)
+==24032==    by 0x1098F8: test (try.c:164)
+==24032==    by 0x10ADEE: main (try-anything.c:345)
+==24032==  Uninitialised value was created by a client request
+==24032==    at 0x10AC08: poison (try-anything.c:281)
+==24032==    by 0x1098BF: test (try.c:161)
+==24032==    by 0x10ADEE: main (try-anything.c:345)
+==24032==

@@ -1,0 +1,224 @@
+error 99
+00b86169adeb721e4b4a623f0377167dfe2d7bf6c5017ed6317b581e99ecc43f 68853388 420162485 2370465000 crypto_scalarmult/kummer/ref5u
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x1094BE: test (try.c:126)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x1094AB: test (try.c:125)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x1095A7: test (try.c:138)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x109594: test (try.c:137)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x10967F: test (try.c:148)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x109670: test (try.c:147)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x109760: test (try.c:158)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x10974D: test (try.c:157)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x109849: test (try.c:170)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x109836: test (try.c:169)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x109921: test (try.c:180)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x109912: test (try.c:179)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x109A52: test (try.c:194)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x109A27: test (try.c:192)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x109B97: test (try.c:210)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x109B6C: test (try.c:208)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x109CB0: test (try.c:223)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x109C89: test (try.c:221)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x109D7F: test (try.c:232)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x109D58: test (try.c:230)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x109ECB: test (try.c:247)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x109EA0: test (try.c:245)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x10A010: test (try.c:263)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x109FE5: test (try.c:261)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x10A129: test (try.c:276)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x10A102: test (try.c:274)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x10A1F8: test (try.c:285)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A911: poison (try-anything.c:281)
+==19668==    by 0x10A1D1: test (try.c:283)
+==19668==    by 0x10AA59: main (try-anything.c:345)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x10941D: doit (try.c:110)
+==19668==    by 0x10AAA7: main (try-anything.c:357)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A9D7: poison (try-anything.c:281)
+==19668==    by 0x10A9D7: randombytes_callback (try-anything.c:312)
+==19668==    by 0x1093F7: predoit (try.c:104)
+==19668==    by 0x10AA7E: main (try-anything.c:351)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x109430: doit (try.c:111)
+==19668==    by 0x10AAA7: main (try-anything.c:357)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A9D7: poison (try-anything.c:281)
+==19668==    by 0x10A9D7: randombytes_callback (try-anything.c:312)
+==19668==    by 0x10AA7E: main (try-anything.c:351)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x10944A: doit (try.c:112)
+==19668==    by 0x10AAA7: main (try-anything.c:357)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A9D7: poison (try-anything.c:281)
+==19668==    by 0x10A9D7: randombytes_callback (try-anything.c:312)
+==19668==    by 0x1093F7: predoit (try.c:104)
+==19668==    by 0x10AA7E: main (try-anything.c:351)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x10AAA7: main (try-anything.c:357)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A9D7: poison (try-anything.c:281)
+==19668==    by 0x10A9D7: randombytes_callback (try-anything.c:312)
+==19668==    by 0x10AA7E: main (try-anything.c:351)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x10941D: doit (try.c:110)
+==19668==    by 0x10AAB8: main (try-anything.c:357)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A9D7: poison (try-anything.c:281)
+==19668==    by 0x10A9D7: randombytes_callback (try-anything.c:312)
+==19668==    by 0x1093F7: predoit (try.c:104)
+==19668==    by 0x10AA7E: main (try-anything.c:351)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x109430: doit (try.c:111)
+==19668==    by 0x10AAB8: main (try-anything.c:357)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A9D7: poison (try-anything.c:281)
+==19668==    by 0x10A9D7: randombytes_callback (try-anything.c:312)
+==19668==    by 0x10AA7E: main (try-anything.c:351)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x10944A: doit (try.c:112)
+==19668==    by 0x10AAB8: main (try-anything.c:357)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A9D7: poison (try-anything.c:281)
+==19668==    by 0x10A9D7: randombytes_callback (try-anything.c:312)
+==19668==    by 0x1093F7: predoit (try.c:104)
+==19668==    by 0x10AA7E: main (try-anything.c:351)
+==19668==
+==19668== Conditional jump or move depends on uninitialised value(s)
+==19668==    at 0x10B5CC: cswap4x (smult.c:12)
+==19668==    by 0x10B5CC: crypto_scalarmult_kummer_ref5u_constbranchindex (???:115)
+==19668==    by 0x10AAB8: main (try-anything.c:357)
+==19668==  Uninitialised value was created by a client request
+==19668==    at 0x10A9D7: poison (try-anything.c:281)
+==19668==    by 0x10A9D7: randombytes_callback (try-anything.c:312)
+==19668==    by 0x10AA7E: main (try-anything.c:351)
+==19668==
