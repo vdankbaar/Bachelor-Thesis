@@ -1,0 +1,47 @@
+error 99
+b6658bd7c21a51ee944260a5d985d252c7508b0f0069e9228afe864ed3aea60c 3526176 2665037952 3200000000 crypto_core/wforcesntrup1013/simpler
+==310707== Conditional jump or move depends on uninitialised value(s)
+==310707==    at 0x10CE72: crypto_core_wforcesntrup1013_simpler_constbranchindex (wforce.c:24)
+==310707==    by 0x109485: test (try.c:106)
+==310707==    by 0x10C54E: main (try-anything.c:345)
+==310707==  Uninitialised value was created by a client request
+==310707==    at 0x10C368: poison (try-anything.c:281)
+==310707==    by 0x109448: test (try.c:103)
+==310707==    by 0x10C54E: main (try-anything.c:345)
+==310707==
+==310707== Conditional jump or move depends on uninitialised value(s)
+==310707==    at 0x10CE72: crypto_core_wforcesntrup1013_simpler_constbranchindex (wforce.c:24)
+==310707==    by 0x10960F: test (try.c:126)
+==310707==    by 0x10C54E: main (try-anything.c:345)
+==310707==  Uninitialised value was created by a client request
+==310707==    at 0x10C368: poison (try-anything.c:281)
+==310707==    by 0x1095D2: test (try.c:123)
+==310707==    by 0x10C54E: main (try-anything.c:345)
+==310707==
+==310707== Conditional jump or move depends on uninitialised value(s)
+==310707==    at 0x10CE72: crypto_core_wforcesntrup1013_simpler_constbranchindex (wforce.c:24)
+==310707==    by 0x10974B: test (try.c:142)
+==310707==    by 0x10C54E: main (try-anything.c:345)
+==310707==  Uninitialised value was created by a client request
+==310707==    at 0x10C368: poison (try-anything.c:281)
+==310707==    by 0x109712: test (try.c:139)
+==310707==    by 0x10C54E: main (try-anything.c:345)
+==310707==
+==310707== Conditional jump or move depends on uninitialised value(s)
+==310707==    at 0x10CE72: crypto_core_wforcesntrup1013_simpler_constbranchindex (wforce.c:24)
+==310707==    by 0x10982D: test (try.c:153)
+==310707==    by 0x10C54E: main (try-anything.c:345)
+==310707==  Uninitialised value was created by a client request
+==310707==    at 0x10C368: poison (try-anything.c:281)
+==310707==    by 0x1097F4: test (try.c:150)
+==310707==    by 0x10C54E: main (try-anything.c:345)
+==310707==
+==310707== Conditional jump or move depends on uninitialised value(s)
+==310707==    at 0x10CE72: crypto_core_wforcesntrup1013_simpler_constbranchindex (wforce.c:24)
+==310707==    by 0x1098F5: test (try.c:164)
+==310707==    by 0x10C54E: main (try-anything.c:345)
+==310707==  Uninitialised value was created by a client request
+==310707==    at 0x10C368: poison (try-anything.c:281)
+==310707==    by 0x1098BC: test (try.c:161)
+==310707==    by 0x10C54E: main (try-anything.c:345)
+==310707==

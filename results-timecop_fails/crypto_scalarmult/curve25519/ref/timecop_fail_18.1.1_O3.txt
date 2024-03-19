@@ -1,0 +1,164 @@
+error 99
+f6675e1326b2a9595d10ad5624159653c6115e6a972c34826d275b8cfe38884b 879242656 3836072256 3200000000 crypto_scalarmult/curve25519/ref
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x1094F8: test (try.c:126)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x1095E2: test (try.c:138)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x1096A9: test (try.c:148)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109779: test (try.c:158)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109863: test (try.c:170)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x10992A: test (try.c:180)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109A40: test (try.c:194)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==  Uninitialised value was created by a client request
+==397158==    at 0x10B668: poison (try-anything.c:281)
+==397158==    by 0x109A26: test (try.c:193)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109B86: test (try.c:210)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==  Uninitialised value was created by a client request
+==397158==    at 0x10B668: poison (try-anything.c:281)
+==397158==    by 0x109B6C: test (try.c:209)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109C8E: test (try.c:223)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==  Uninitialised value was created by a client request
+==397158==    at 0x10B668: poison (try-anything.c:281)
+==397158==    by 0x109C78: test (try.c:222)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109D4C: test (try.c:232)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==  Uninitialised value was created by a client request
+==397158==    at 0x10B668: poison (try-anything.c:281)
+==397158==    by 0x109D36: test (try.c:231)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109E73: test (try.c:247)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==  Uninitialised value was created by a client request
+==397158==    at 0x10B668: poison (try-anything.c:281)
+==397158==    by 0x109E59: test (try.c:246)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109FB9: test (try.c:263)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==  Uninitialised value was created by a client request
+==397158==    at 0x10B668: poison (try-anything.c:281)
+==397158==    by 0x109F9F: test (try.c:262)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x10A0C1: test (try.c:276)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==  Uninitialised value was created by a client request
+==397158==    at 0x10B668: poison (try-anything.c:281)
+==397158==    by 0x10A0AB: test (try.c:275)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x10A17F: test (try.c:285)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==  Uninitialised value was created by a client request
+==397158==    at 0x10B668: poison (try-anything.c:281)
+==397158==    by 0x10A169: test (try.c:284)
+==397158==    by 0x10B84E: main (try-anything.c:345)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109453: doit (try.c:110)
+==397158==    by 0x10B89C: main (try-anything.c:357)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109466: doit (try.c:111)
+==397158==    by 0x10B89C: main (try-anything.c:357)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109480: doit (try.c:112)
+==397158==    by 0x10B89C: main (try-anything.c:357)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x10B89C: main (try-anything.c:357)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109453: doit (try.c:110)
+==397158==    by 0x10B8AD: main (try-anything.c:357)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109466: doit (try.c:111)
+==397158==    by 0x10B8AD: main (try-anything.c:357)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x109480: doit (try.c:112)
+==397158==    by 0x10B8AD: main (try-anything.c:357)
+==397158==
+==397158== Conditional jump or move depends on uninitialised value(s)
+==397158==    at 0x11577C: freeze (smult.c:59)
+==397158==    by 0x11577C: crypto_scalarmult_curve25519_ref_constbranchindex (???:264)
+==397158==    by 0x10B8AD: main (try-anything.c:357)
+==397158==

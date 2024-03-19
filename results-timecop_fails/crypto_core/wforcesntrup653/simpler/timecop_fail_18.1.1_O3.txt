@@ -1,0 +1,47 @@
+error 99
+9334e79b56cc8c00050596ed0900b00440aaf6bb57b4d1ddbfd3cc247eefce08 2945312 1396638016 3200000000 crypto_core/wforcesntrup653/simpler
+==313354== Conditional jump or move depends on uninitialised value(s)
+==313354==    at 0x10D241: crypto_core_wforcesntrup653_simpler_constbranchindex (wforce.c:24)
+==313354==    by 0x109488: test (try.c:106)
+==313354==    by 0x10C91E: main (try-anything.c:345)
+==313354==  Uninitialised value was created by a client request
+==313354==    at 0x10C738: poison (try-anything.c:281)
+==313354==    by 0x10944B: test (try.c:103)
+==313354==    by 0x10C91E: main (try-anything.c:345)
+==313354==
+==313354== Conditional jump or move depends on uninitialised value(s)
+==313354==    at 0x10D241: crypto_core_wforcesntrup653_simpler_constbranchindex (wforce.c:24)
+==313354==    by 0x109612: test (try.c:126)
+==313354==    by 0x10C91E: main (try-anything.c:345)
+==313354==  Uninitialised value was created by a client request
+==313354==    at 0x10C738: poison (try-anything.c:281)
+==313354==    by 0x1095D5: test (try.c:123)
+==313354==    by 0x10C91E: main (try-anything.c:345)
+==313354==
+==313354== Conditional jump or move depends on uninitialised value(s)
+==313354==    at 0x10D241: crypto_core_wforcesntrup653_simpler_constbranchindex (wforce.c:24)
+==313354==    by 0x10974E: test (try.c:142)
+==313354==    by 0x10C91E: main (try-anything.c:345)
+==313354==  Uninitialised value was created by a client request
+==313354==    at 0x10C738: poison (try-anything.c:281)
+==313354==    by 0x109715: test (try.c:139)
+==313354==    by 0x10C91E: main (try-anything.c:345)
+==313354==
+==313354== Conditional jump or move depends on uninitialised value(s)
+==313354==    at 0x10D241: crypto_core_wforcesntrup653_simpler_constbranchindex (wforce.c:24)
+==313354==    by 0x109830: test (try.c:153)
+==313354==    by 0x10C91E: main (try-anything.c:345)
+==313354==  Uninitialised value was created by a client request
+==313354==    at 0x10C738: poison (try-anything.c:281)
+==313354==    by 0x1097F7: test (try.c:150)
+==313354==    by 0x10C91E: main (try-anything.c:345)
+==313354==
+==313354== Conditional jump or move depends on uninitialised value(s)
+==313354==    at 0x10D241: crypto_core_wforcesntrup653_simpler_constbranchindex (wforce.c:24)
+==313354==    by 0x1098F8: test (try.c:164)
+==313354==    by 0x10C91E: main (try-anything.c:345)
+==313354==  Uninitialised value was created by a client request
+==313354==    at 0x10C738: poison (try-anything.c:281)
+==313354==    by 0x1098BF: test (try.c:161)
+==313354==    by 0x10C91E: main (try-anything.c:345)
+==313354==
