@@ -12,6 +12,7 @@ for file in files:
                 flag = "O3"
             elif "-Os" in data[8]:
                 flag = "Os"
+            # Adjust the searchers below to match your flagset
             test = data[7]+'\t'+data[6]+'\t'+data[8].split('/clang/')[1].split('/bin/clang')[0]+'\t'+flag
             if not test in testResults:
                 testResults.add(test)
